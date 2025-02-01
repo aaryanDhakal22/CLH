@@ -1,0 +1,53 @@
+<html lang="en">
+  <style>
+    h1{
+      text-align: center;
+    }
+    input{
+      border-radius: 10px 0 10px 0;
+      margin-bottom: 1rem;
+      padding: 0.3rem;
+      font-size: medium;
+    }
+    button{
+      text-align: center;
+      font-size: medium;
+      padding: 0.3rem;
+      color: white;
+      border-radius: 10px;
+      flex-grow: 1;
+  
+
+    }
+    
+    .btnContainer{
+      display: flex;
+      gap: 10px;
+    }
+    #savebtn{
+      background-color: rgb(20, 124, 215);
+    }
+    #runBtn{
+      background-color: rgb(80, 192, 80);
+    }
+    .footnote{
+      text-align: end;
+      margin-top: 0.1rem;
+      font-size: small;
+    }
+  </style>
+  <body>
+    <h1>INJECT<span style="color: rgb(20, 124, 215);">AUR</span> </h1>
+    <div>
+      <input type="text" id="username" placeholder="Username"/>
+      <input type="password" id = "password" placeholder="Password" />
+      <input type="password" id="sec" placeholder="Security Q/A"/>
+      <div class="btnContainer">
+        <button id="saveBtn">Save</button>
+        <button id="runBtn">Run</button>
+      </div>
+      <div class="footnote"> - By <a href="www.aaryandhakal.com">Aaryan Dhakal</a></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
